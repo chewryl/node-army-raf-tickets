@@ -1,0 +1,141 @@
+@import 'config';
+
+.form-control {
+    margin: 0.7rem 0;
+  }
+
+.form__page {
+  min-height: 77vh;
+}
+
+.login-form {
+    padding-top: 20px;
+    width: 23rem;
+    max-width: 90%;
+    margin: 5% auto;
+    display: block;
+    //min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //transform: translateY(-20%);
+
+    input {
+        padding: 5px 3px;
+        font-size: 16px;
+    }
+    
+    &-split {
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            width: 45%;
+        }
+
+        .form-control {
+            margin: 0rem 0;
+        }
+    }
+
+}
+    .small {
+      height: 100%;
+    }
+    .big {
+        height: 100%;
+        transform: none;
+    }
+
+    .signup-link {
+      width: 23rem;
+      max-width: 90%;
+      margin: 100px auto 25px auto;
+      display: block;
+      text-align: center;
+      color: $red;
+
+      a {
+        color: $red;
+      }
+      a:hover {
+        color: lighten($red,10%);
+      }
+      a:active {
+        color: $red;
+      }
+    }
+
+  
+  .form-control label,
+  .form-control input,
+  .form-control textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    border: 1px solid #a1a1a1;
+    font: inherit;
+    border-radius: 2px;
+  }
+  
+  .form-control input:focus,
+  .form-control textarea:focus {
+    outline-color: $pale-blue;
+  }
+
+  .form-submit-btn {
+    text-align: center;
+    padding-top: 30px;
+
+    button {
+        width: 30%;
+        background-color: lighten($red, 3%);
+        color: $pale-grey;
+        border-radius: 3px;
+        padding: 1px;
+    }
+
+    button:hover {
+        background-color: lighten($red, 10%);
+    }
+  }
+  
+  .password-link {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .password-link a {
+    text-decoration: none;
+  }
+  
+  .password-link a:link, .password-link a:visited, .password-link a:active {
+    color: $dark-grey;
+  }
+  
+  .form-control input.invalid,
+  .form-control textarea.invalid {
+    border-color: red;
+  }
+
+
+ /*  user-message user-message--error */
+
+ .user-message {
+  margin: auto;
+  border: 1px solid darken($pale-blue, 3%);
+  background-color: #ccefff;
+  padding: 8px;
+  text-align: center;
+  color: darkcyan;
+}
+
+.user-message--error {  
+  border: 1px solid #e70000;
+  background-color: #ffaaaa60;
+  color: #e70000;
+}
+

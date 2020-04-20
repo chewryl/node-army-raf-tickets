@@ -1,0 +1,14 @@
+$pale-blue: #99d6ff;
+$red: #bd0010;
+$pale-grey: #ebebeb;
+$dark-grey: #303030;
+
+$box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.19);
+
+@mixin tickets-mobile($mobile: false) {
+    @if $mobile {
+      width: 100%;
+    } @else {
+      width: 96%;
+    }
+  }

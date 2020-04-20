@@ -1,0 +1,22 @@
+@import 'config';
+
+
+.error-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+h1 {
+    color: $dark-grey;
+}
+
+h2 {
+    color: $dark-grey;
+}
+
+.error-message {
+    color: $dark-grey;
+}
