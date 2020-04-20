@@ -17,6 +17,7 @@ const db = require('./util/database');
 
 const app = express();
 const csrfProtection = csurf();
+app.set('trust proxy', 1) // trust first proxy
 
 app.set('view engine', 'ejs');
 app.set('views', 'views');
@@ -35,7 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
  
 
 const options = {
-    host: 'localhost',
+    host: 'eu-cdbr-west-03.cleardb.net',
     user: process.env.SQL_USER,
     database: process.env.SQL_DEFAULT_DATABASE,
     password: process.env.SQL_PASSWORD,
