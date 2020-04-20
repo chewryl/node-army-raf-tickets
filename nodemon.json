@@ -1,8 +1,0 @@
-{
-    "env": {
-        "SQL_USER": "root",
-        "SQL_PASSWORD": "Mickeymickey",
-        "SQL_DEFAULT_DATABASE": "avr-tickets",
-        "STRIPE_SECRET_KEY": "sk_live_KRZQCiQq7dkYJ9MX5BSLJQqp00zQHG9Uuk"
-    }
-}
