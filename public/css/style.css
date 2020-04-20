@@ -523,7 +523,7 @@ input:focus {
   }
 
   .tickets__side input:nth-child(1) {
-    width: 173px;
+    width: 171px;
   }
 
   .tickets__side input:nth-child(2) {
@@ -532,7 +532,7 @@ input:focus {
   }
 
   .tickets__side input {
-    width: 60px;
+    width: 55px;
   }
 
   .cart__items {
@@ -657,21 +657,21 @@ input:focus {
 
   .navigation {
     overflow: hidden;
+    /* li a {
+        padding: 16px 3px 16px 3px;
+    } */
   }
   .navigation h3 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .navigation ul {
-    transform: translateX(10px);
+    transform: translateX(-4px);
   }
   .navigation button {
     padding: 16px 5px 16px 5px;
   }
   .navigation li {
-    padding: 16px;
-  }
-  .navigation li a {
-    padding: 16px 3px 16px 3px;
+    padding: 15px 10px 15px 15px;
   }
 
   .cart {
@@ -768,7 +768,7 @@ input:focus {
   transform: translate(-52%, -50%);
   background-color: white;
   padding: 1rem 1rem;
-  width: 87%;
+  width: 91%;
   border-radius: 0.5rem;
 }
 

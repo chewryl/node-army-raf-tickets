@@ -73,7 +73,7 @@
         }
     }
     .tickets__side input:nth-child(1) {
-        width: 173px;
+        width: 171px;
     }
     .tickets__side input:nth-child(2) {
         width: 34px;
@@ -81,7 +81,7 @@
     }
 
     .tickets__side input {
-        width: 60px;
+        width: 55px;
     }
     .cart__items {
         padding: 12px 10px;
@@ -216,21 +216,21 @@
         overflow: hidden;
 
         h3 {
-            font-size: 18px;
+            font-size: 17px;
         }
         ul {
-            transform: translateX(10px);
+            transform: translateX(-4px);
         }
         button {
             padding: 16px 5px 16px 5px;
         }
         li {
-            padding: 16px;
+            padding: 15px 10px 15px 15px;
         }
         
-        li a {
+        /* li a {
             padding: 16px 3px 16px 3px;
-        }
+        } */
     }
     // Cart page
     .cart {
@@ -338,7 +338,7 @@
     transform: translate(-52%, -50%);
     background-color: white;
     padding: 1rem 1rem;
-    width: 87%;
+    width: 91%;
     border-radius: 0.5rem;
 }
 
