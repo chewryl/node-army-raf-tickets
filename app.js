@@ -60,6 +60,10 @@ app.use(csrfProtection);
 
 app.use(flash()); 
 
+if (!req.session.isLoggedIn) {
+    req.session.isLoggedIn = false;
+}
+
 app.use((req, res, next) => { // every incoming req will get funnelled through this - i.e. will get sent to all the views
     res.locals.isAuthenticated = req.session.isLoggedIn,
     res.locals.csrfToken = req.csrfToken();
