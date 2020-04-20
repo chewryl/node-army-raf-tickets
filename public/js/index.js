@@ -5,9 +5,9 @@ if ( window.history.replaceState ) {
 const deleteItem = (id) => {
     const csrfToken = document.querySelector('#csrf').value;
     id = parseInt(id);
-    
 
-    fetch('http://localhost:4000/delete-item', {
+
+    fetch('https://army-vs-raf-tickets.herokuapp.com/delete-item', {
         method: 'POST',
         body: JSON.stringify({id}),
         headers: {
@@ -43,7 +43,7 @@ const postCheckout = () => {
     checkoutObj.details = details;
     checkoutObj.address = address;
 
-    fetch('http://localhost:4000/cart-checkout', {
+    fetch('https://army-vs-raf-tickets.herokuapp.com/cart-checkout', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
