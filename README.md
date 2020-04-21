@@ -5,5 +5,6 @@ This is an app for ordering tickets to the Army vs RAF rugby match.
 App is created with:
 * Node.js
 * Express
+* EJS templating engine
 * MySQL
 * SASS
